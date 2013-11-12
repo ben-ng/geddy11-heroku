@@ -10,6 +10,7 @@ Reproduction Steps
 
 The Error
 =========
+```
 ben@MILK ~/Documents/testapp (master)$ heroku run geddy jake db:init environment=production --trace
 Running `geddy jake db:init environment=production --trace` attached to terminal... up, run.1656
 Setting up DB support for postgres adapter, production environment...
@@ -22,4 +23,5 @@ Error: /bin/sh: npm: not found
     at ChildProcess.<anonymous> (/app/node_modules/geddy/node_modules/jake/lib/utils/index.js:210:20)
     at ChildProcess.EventEmitter.emit (events.js:98:17)
     at Process.ChildProcess._handle.onexit (child_process.js:789:12)
+```
 
