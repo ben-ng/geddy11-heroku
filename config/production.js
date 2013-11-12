@@ -55,8 +55,8 @@ var key = ['source', 'scheme', 'authority', 'userInfo', 'user', 'pass', 'host', 
 var PARSED = parse_url(process.env.DATABASE_URL);
 
 var config = {
-  detailedErrors: false
-, debug: false
+  detailedErrors: true
+, debug: true
 , hostname: "0.0.0.0"
 , port: process.env.PORT || 4000
 , model: {
